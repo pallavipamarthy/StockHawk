@@ -1,0 +1,52 @@
+<resources xmlns:xliff="http://schemas.android.com/apk/res-auto">
+
+    <!-- Add new stock dialog -->
+    <string name="dialog_title">Añadir acciones</string>
+    <string name="dialog_hint">Símbolo (p.ej. GOOG)</string>
+    <string name="dialog_cancel">Cancelar</string>
+    <string name="dialog_add">Añadir</string>
+    <string name="stock_date_heading">Fecha</string>
+    <string name="stock_close_value_heading">Cerca</string>
+
+    <!-- A11y -->
+    <string name="a11y_add_stock_button">Añadir nueva acción</string>
+    <string name="a11y_change_value">Cambio: <xliff:g id="condition">%1$s</xliff:g></string>
+    <string name="a11y_stock_price">Precio: <xliff:g id="condition">%1$s</xliff:g></string>
+    <string name="a11y_percent_mode">Cambio al porcentaje</string>
+    <string name="a11y_absolute_mode">Cambio a absoluto</string>
+    <string name="a11y_edit_text_dialog">Ingrese un nombre de archivo para buscar</string>
+
+    <!-- Error messages -->
+    <string name="error_no_network">No se puede encontrar la conexión de red&#8230;\/\n
+        Conéctese a una red para ver y seguir sus acciones favoritas.</string>
+    <string name="error_no_stocks">No se han añadido existencias&#8230;\/\n
+        Añada una acción y la caja las cotizaciones más últimas.</string>
+    <string name="toast_stock_added_no_connectivity">Símbolo %1$s! ha sido añadido.\/\n
+        Conéctese a la red para agregar acciones a la lista.</string>
+    <string name="toast_no_connectivity">No se encontró ninguna conexión de red.\/\nConéctese a la red y vuelva a intentarlo.</string>
+    <string name="wrong_symbol_toast">No se puede encontrar el símbolo.Ingrese un símbolo válido para agregar.</string>
+    <string name="empty_symbol_toast">Ingrese un símbolo para agregar.</string>
+    <string name="data_unavailable_for_symbol">Lo sentimos! Datos no está disponible para este símbolo.</string>
+    <string name="toast_stock_already_added">Símbolo %1$s ya está en su lista.</string>
+    <string name="invalid_symbol_toast">Ingrese un símbolo válido para agregar.</string>
+
+    <!-- Empty View messages -->
+    <string name="empty_stock">No se han añadido existencias</string>
+
+    <!-- Detail View  -->
+    <string name="symbol_label">Símbolo de Stock</string>
+    <string name="symbol_name_label">Nombre de archivo</string>
+    <string name="prev_close_label">Anterior Cerrar</string>
+    <string name="currency_label">Moneda</string>
+    <string name="day_low_label">El día es bajo</string>
+    <string name="day_high_label">El día es alto</string>
+    <string name="year_low_label">Año bajo</string>
+    <string name="year_high_label">Año de alta</string>
+    <string name="open_label">Valor abierto</string>
+
+    <string name="date_heading">Fecha</string>
+    <string name="close_value_heading">Cerrar valor</string>
+    <string name="graph_description">Comparación CloseValue</string>
+    <string name="history_tab_heading">Información histórica</string>
+    <string name="summary_tab_heading">Resumen</string>
+</resources>

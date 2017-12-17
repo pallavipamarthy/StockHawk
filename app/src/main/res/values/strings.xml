@@ -1,0 +1,72 @@
+<resources xmlns:xliff="http://schemas.android.com/apk/res-auto">
+    <string name="app_name" translatable="false">\u0020Stock Hawk\u0020\u0020</string>
+    <string name="detail_activity_title" translatable="false">\u0020\u0020<xliff:g id="symbolName">%1$s</xliff:g>\u0020\u0020</string>
+    <string name="pref_stocks_initialized_key" translatable="false">initialized</string>
+
+    <string name="pref_stocks_key" translatable="false">stocks</string>
+
+
+    <string name="pref_display_mode_key" translatable="false">displayMode</string>
+    <string name="pref_display_mode_default" translatable="false">@string/pref_display_mode_percentage_key</string>
+
+    <string name="pref_display_mode_absolute_key" translatable="false">absolute</string>
+    <string name="pref_display_mode_percentage_key" translatable="false">percentage</string>
+
+    <string name="default_stocks_yahoo" translatable="false">YHOO</string>
+    <string name="default_stocks_apple" translatable="false">AAPL</string>
+    <string name="default_stocks_microsoft" translatable="false">MSFT</string>
+    <string name="default_stocks_facebook" translatable="false">FB</string>
+
+
+    <string name="action_change_units" translatable="false">@string/pref_display_mode_key</string>
+
+    <!-- Add new stock dialog -->
+    <string name="dialog_title">Add Stock</string>
+    <string name="dialog_hint">Symbol (e.g. GOOG)</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="dialog_add">Add</string>
+    <string name="stock_date_heading">Date</string>
+    <string name="stock_close_value_heading">Close</string>
+
+    <!-- A11y -->
+    <string name="a11y_add_stock_button">Add new stock</string>
+    <string name="a11y_change_value">Change: <xliff:g id="change">%1$s</xliff:g></string>
+    <string name="a11y_stock_price">Price: <xliff:g id="price">%1$s</xliff:g></string>
+    <string name="a11y_percent_mode">Change to percent</string>
+    <string name="a11y_absolute_mode">Change to absolute</string>
+    <string name="a11y_edit_text_dialog">Enter a stock name to search</string>
+    <string name="a11y_currency_type" translatable="false">U S Dollar</string>
+
+    <!-- Error messages -->
+    <string name="error_no_network">Oops! Cannot find network connection&#8230;\/\n
+    Please connect to a network to view and follow your favourite stocks.</string>
+    <string name="error_no_stocks">No stocks added yet&#8230;\/\n
+        Add a stock and checkout the latest quotes.</string>
+    <string name="toast_stock_added_no_connectivity">Symbol %1$s has been added.\/\nConnect to the network to add stock to the list.</string>
+    <string name="toast_stock_already_added">Symbol %1$s is already on your list.</string>
+    <string name="toast_no_connectivity">No network connection found.\/\nPlease connect to network and try again.</string>
+    <string name="wrong_symbol_toast">Cannot find the symbol. Please enter a valid symbol to add.</string>
+    <string name="empty_symbol_toast">Please enter a symbol to add.</string>
+    <string name="invalid_symbol_toast">Please enter a valid symbol to add.</string>
+    <string name="data_unavailable_for_symbol">Sorry! Data is unavailable for this symbol.</string>
+
+    <!-- Empty View messages -->
+    <string name="empty_stock">No stocks added yet</string>
+
+    <!-- Detail View  -->
+    <string name="symbol_label">Stock Symbol</string>
+    <string name="symbol_name_label">Stock Name</string>
+    <string name="prev_close_label">Previous Close</string>
+    <string name="currency_label">Currency</string>
+    <string name="day_low_label">Day\'s Low</string>
+    <string name="day_high_label">Day\'s High</string>
+    <string name="year_low_label">Year\'s Low</string>
+    <string name="year_high_label">Year\'s High</string>
+    <string name="open_label">Open Value</string>
+
+    <string name="date_heading">Date</string>
+    <string name="close_value_heading">Close Value</string>
+    <string name="graph_description">CloseValue Comparison</string>
+    <string name="history_tab_heading">Historical Data</string>
+    <string name="summary_tab_heading">Summary</string>
+</resources>
