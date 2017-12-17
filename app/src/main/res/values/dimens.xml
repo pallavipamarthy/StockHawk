@@ -1,0 +1,27 @@
+<resources>
+    <dimen name="activity_horizontal_margin">20dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="widget_stock_default_width">260dp</dimen>
+    <dimen name="widget_stock_default_height">180dp</dimen>
+
+    <dimen name="widget_margin">8dp</dimen>
+    <dimen name="widget_stock_large_width">280dp</dimen>
+
+    <dimen name="widget_stock_min_resize_width">250dp</dimen>
+    <dimen name="widget_stock_min_resize_height">@dimen/widget_stock_default_height</dimen>
+
+    <dimen name="symbol_text_size">25sp</dimen>
+    <dimen name="price_text_size">20sp</dimen>
+    <dimen name="percent_text_size">20sp</dimen>
+
+    <dimen name="cardview_details_text_size">15sp</dimen>
+    <dimen name="detail_view_padding">6dp</dimen>
+
+    <dimen name="historical_data_size">16sp</dimen>
+    <dimen name="symbol_name_text_size">13sp</dimen>
+    <dimen name="tab_text_size">15sp</dimen>
+    <dimen name="historical_heading_padding">10dp</dimen>
+
+
+</resources>

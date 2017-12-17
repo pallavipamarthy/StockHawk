@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="?android:attr/selectableItemBackground">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingStart="@dimen/activity_horizontal_margin"
+        android:paddingEnd="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="@dimen/activity_vertical_margin">
+
+            <TextView
+                android:id="@+id/symbol_text_view"
+                style="@style/StockSymbolTextStyle"
+                android:layout_weight="1"
+                android:textDirection="locale"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="GOOG" />
+
+            <TextView
+                android:id="@+id/price_text_view"
+                style="@style/BidPriceTextStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="end"
+                android:layout_marginEnd="10sp"
+                android:layout_marginRight="10sp"
+                android:layout_weight="1"
+                tools:text="1000.00" />
+
+            <TextView
+                android:id="@+id/change_text_view"
+                style="@style/PercentChangeTextStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/percent_change_pill_green"
+                android:gravity="end"
+                android:paddingLeft="3dp"
+                android:paddingStart="3dp"
+                android:paddingRight="3dp"
+                android:paddingEnd="3dp"
+                tools:text="100%" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/symbol_name"
+            android:textSize="@dimen/symbol_name_text_size"
+            tools:text="Alphabet" />
+    </LinearLayout>
+</LinearLayout>

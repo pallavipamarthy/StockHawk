@@ -1,0 +1,50 @@
+<resources xmlns:xliff="http://schemas.android.com/apk/res-auto">
+
+    <!-- Add new stock dialog -->
+    <string name="dialog_title">إضافة أسهم</string>
+    <string name="dialog_hint">رمز (مثلا GOOG)</string>
+    <string name="dialog_cancel">إلغاء</string>
+    <string name="dialog_add">إضافة</string>
+    <string name="stock_date_heading">تاريخ</string>
+    <string name="stock_close_value_heading">قريب</string>
+
+    <!-- A11y -->
+    <string name="a11y_add_stock_button">إضافة رمز السهم الجديد</string>
+    <string name="a11y_change_value">يتغيرون<xliff:g id="condition">%1$s</xliff:g></string>
+    <string name="a11y_stock_price">السعر<xliff:g id="condition">%1$s</xliff:g></string>
+    <string name="a11y_percent_mode">التغيير إلى النسبة المئوية</string>
+    <string name="a11y_absolute_mode">تغيير إلى مطلقة</string>
+    <string name="a11y_edit_text_dialog">أدخل اسم السهم للبحث</string>
+
+
+    <!-- Error messages -->
+    <string name="error_no_network">لا يمكن العثور على اتصال بالشبكة...n\/\يرجى الاتصال بشبكة لعرض ومتابعة الأسهم المفضلة لديك. </string>
+    <string name="error_no_stocks">لم يتم إضافة أي أسهم حتى الآن...n\/\إضافة الأسهم والخروج على أحدث يقتبس.</string>
+    <string name="toast_stock_added_no_connectivity">رمز %1$s! تمت إضافة.n\/\الاتصال بالشبكة لإضافة الأسهم إلى القائمة.</string>
+    <string name="toast_no_connectivity">لم يتم العثور على اتصال بالشبكة.n\/\يرجى الاتصال بالشبكة وإعادة المحاولة.</string>
+    <string name="wrong_symbol_toast">لا يمكن العثور على الرمز.الرجاء إدخال رمز صالح لإضافته.</string>
+    <string name="empty_symbol_toast">الرجاء إدخال رمز للإضافة.</string>
+    <string name="data_unavailable_for_symbol">عذرا! البيانات غير متوفرة لهذا الرمز.</string>
+    <string name="toast_stock_already_added">رمز %1$s! موجود بالفعل في قائمتك.</string>
+    <string name="invalid_symbol_toast">الرجاء إدخال رمز صالح لإضافته.</string>
+
+    <!-- Empty View messages -->
+    <string name="empty_stock">لم يتم إضافة أي أسهم حتى الآن</string>
+
+    <!-- Detail View  -->
+    <string name="symbol_label">رمز السهم</string>
+    <string name="symbol_name_label">اسم السهم</string>
+    <string name="prev_close_label">السابق الإغلاق</string>
+    <string name="currency_label">دقة</string>
+    <string name="day_low_label">يوم منخفضة</string>
+    <string name="day_high_label">يوم عالية</string>
+    <string name="year_low_label">السنة أدنى سعر ل</string>
+    <string name="year_high_label">العام</string>
+    <string name="open_label">فتح القيمة</string>
+
+    <string name="date_heading">تاريخ</string>
+    <string name="close_value_heading">إغلاق القيمة</string>
+    <string name="graph_description">كلوزيفالو المقارنة</string>
+    <string name="history_tab_heading">البيانات التاريخية</string>
+    <string name="summary_tab_heading">ملخص</string>
+</resources>

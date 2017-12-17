@@ -1,0 +1,53 @@
+<resources xmlns:xliff="http://schemas.android.com/apk/res-auto">
+
+    <!-- Add new stock dialog -->
+    <string name="dialog_title">Ajouter des stocks</string>
+    <string name="dialog_hint">Symbole (par exemple. GOOG)</string>
+    <string name="dialog_cancel">Annuler</string>
+    <string name="dialog_add">Ajouter</string>
+    <string name="stock_date_heading">Rendez-vous amoureux</string>
+    <string name="stock_close_value_heading">Fermer</string>
+
+    <!-- A11y -->
+    <string name="a11y_add_stock_button">Ajouter un nouveau stock</string>
+    <string name="a11y_change_value">Changement: <xliff:g id="condition">%1$s</xliff:g></string>
+    <string name="a11y_stock_price">Prix: <xliff:g id="condition">%1$s</xliff:g></string>
+    <string name="a11y_percent_mode">Changer en pourcentage</string>
+    <string name="a11y_absolute_mode">Changement en absolu</string>
+    <string name="a11y_edit_text_dialog">Entrez un nom de stock à rechercher</string>
+
+    <!-- Error messages -->
+    <string name="error_no_network">Impossible de trouver une connexion réseau&#8230;\/\n
+        Connectez-vous à un réseau pour afficher et suivre vos stocks préférés.</string>
+    <string name="error_no_stocks">Pas de stocks ajoutés&#8230;\/\n
+        Ajouter un stock et extraire les dernières cotations.</string>
+    <string name="toast_stock_added_no_connectivity">Symbole %1$s! a été ajouté.\/\n
+        Connectez-vous au réseau pour ajouter du stock à la liste.</string>
+    <string name="toast_no_connectivity">Aucune connexion réseau n\'a été trouvée.\/\n
+        Veuillez vous connecter au réseau et réessayer.</string>
+    <string name="wrong_symbol_toast">Impossible de trouver le symbole.Veuillez saisir un symbole valide à ajouter.</string>
+    <string name="empty_symbol_toast">Veuillez saisir un symbole à ajouter.</string>
+    <string name="data_unavailable_for_symbol">Désolé! Les données sont indisponibles pour le symbole esta.</string>
+    <string name="toast_stock_already_added">Symbole %1$s est déjà sur votre liste.</string>
+    <string name="invalid_symbol_toast">Entrez un symbole valide à ajouter.</string>
+
+    <!-- Empty View messages -->
+    <string name="empty_stock">Pas de stocks ajoutés</string>
+
+    <!-- Detail View  -->
+    <string name="symbol_label">Symbole boursier</string>
+    <string name="symbol_name_label">Nom du stock</string>
+    <string name="prev_close_label">Précédent Fermer</string>
+    <string name="currency_label">Devise</string>
+    <string name="day_low_label">Jour inférieur</string>
+    <string name="day_high_label">Le jour est haut</string>
+    <string name="year_low_label">Année basse</string>
+    <string name="year_high_label">Année haute</string>
+    <string name="open_label">Ouvrir la valeur</string>
+
+    <string name="date_heading">Rendez-vous amoureux</string>
+    <string name="close_value_heading">Fermer la valeur</string>
+    <string name="graph_description">Comparaison CloseValue</string>
+    <string name="history_tab_heading">Données historiques</string>
+    <string name="summary_tab_heading">Résumé</string>
+</resources>
