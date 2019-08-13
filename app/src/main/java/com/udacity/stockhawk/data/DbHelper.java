@@ -32,7 +32,6 @@ class DbHelper extends SQLiteOpenHelper {
                 + Quote.COLUMN_PREVCLOSE + " REAL NOT NULL, "
                 + Quote.COLUMN_HISTORY + " TEXT NOT NULL, "
                 + "UNIQUE (" + Quote.COLUMN_SYMBOL + ") ON CONFLICT REPLACE);";
-
         db.execSQL(builder);
     }
 
