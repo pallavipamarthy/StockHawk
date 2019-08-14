@@ -11,6 +11,7 @@ public class DailyStock {
     public String getDate(){
         return mDate;
     }
+
     public String getCloseValue(){
         return mCloseValue;
     }
